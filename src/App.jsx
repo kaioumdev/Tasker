@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './Header/Header'
 
 const App = () => {
   return (
-    <div>Welcome to tasker</div>
+    <div>
+      <Header></Header>
+    </div>
   )
 }
 
