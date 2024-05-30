@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaStar } from "react-icons/fa";
 
 const TaskList = ({ tasks }) => {
     return (
@@ -35,8 +36,9 @@ const TaskList = ({ tasks }) => {
                             key={task.id}
                             className="border-b border-[#2E3443] [&>td]:align-baseline [&>td]:px-4 [&>td]:py-2">
                             <td>
-                                <button>
-                                </button>
+                              {
+                                task.isFavorite ? <FaStar  color="yellow"/> : <FaStar color='gray'/>
+                              }
                             </td>
                             <td>{task.title}</td>
                             <td>

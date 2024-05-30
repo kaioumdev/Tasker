@@ -10,7 +10,7 @@ const TaskBoard = () => {
         'description': "I want to Learn React such than I can treat it like my slave and make it do whatever I want to do.",
         'tags': ["Web", "React", "js"],
         "priority": "High",
-        "isFavorite": true
+        "isFavorite": false
     }
     const [tasks, setTasks] = useState([defaultTask])
     return (
