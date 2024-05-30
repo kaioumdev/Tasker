@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SearchTask from './SearchTask'
 import TaskActions from './TaskActions'
 import TaskList from './TaskList'
 
 const TaskBoard = () => {
+    const defaultTask = {
+        'id': crypto.randomUUID(),
+        'title': "Learn React",
+        'description': "I want to Learn React such than I can treat it like my slave and make it do whatever I want to do.",
+        'tags': ["Web", "React", "js"],
+        "priority": "High",
+        "isFavorite": true
+    }
+    const [tasks, setTasks] = useState([defaultTask])
     return (
         <section className="mb-20" id="tasks">
             <div className="container">
