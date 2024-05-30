@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TaskList = () => {
+const TaskList = ({ tasks }) => {
     return (
         <div className="overflow-auto">
             <table className="table-fixed overflow-auto xl:w-full">
@@ -30,13 +30,12 @@ const TaskList = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {/* {tasks.map((task) => (
+                    {tasks.map((task) => (
                         <tr
                             key={task.id}
                             className="border-b border-[#2E3443] [&>td]:align-baseline [&>td]:px-4 [&>td]:py-2">
                             <td>
-                                <button >
-                                   
+                                <button>
                                 </button>
                             </td>
                             <td>{task.title}</td>
@@ -70,7 +69,7 @@ const TaskList = () => {
                                 </div>
                             </td>
                         </tr>
-                    ))} */}
+                    ))}
                 </tbody>
             </table>
         </div>
