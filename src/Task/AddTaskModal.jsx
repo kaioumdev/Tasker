@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 
-const AddTaskModal = () => {
+const AddTaskModal = ({onSave}) => {
     const [task, setTask] = useState({
+        id:crypto.randomUUID(),
         title: "",
         description: "",
         tags: [],
@@ -98,6 +99,7 @@ const AddTaskModal = () => {
                     <button
                         type="submit"
                         className="rounded bg-blue-600 px-4 py-2 text-white transition-all hover:opacity-80"
+                        onClick={() => onSave(task)}
                     >
                         Save
                     </button>
