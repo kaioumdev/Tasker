@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaStar } from "react-icons/fa";
 
-const TaskList = ({ tasks }) => {
+const TaskList = ({ tasks, onEdit }) => {
     return (
         <div className="overflow-auto">
             <table className="table-fixed overflow-auto xl:w-full">
@@ -65,6 +65,7 @@ const TaskList = ({ tasks }) => {
                                     </button>
                                     <button
                                         className="text-blue-500"
+                                        onClick={() => onEdit(task)}
                                     >
                                         Edit
                                     </button>
