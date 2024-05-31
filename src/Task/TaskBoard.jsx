@@ -3,6 +3,7 @@ import SearchTask from './SearchTask'
 import TaskActions from './TaskActions'
 import TaskList from './TaskList'
 import AddTaskModal from './AddTaskModal'
+import NoTaskFound from './NoTaskFound'
 
 const TaskBoard = () => {
     const defaultTask = {
@@ -18,19 +19,19 @@ const TaskBoard = () => {
     const [taskToUpdate, setTaskToUpdate] = useState(null)
 
     const handleAddEditTask = (newTask, isAdd) => {
-        if(isAdd){
+        if (isAdd) {
             setTasks([...tasks, newTask])
-        }else{
+        } else {
             setTasks(
                 tasks.map((task) => {
-                    if(task.id === newTask.id){
+                    if (task.id === newTask.id) {
                         return newTask
                     }
                     return task
                 })
             )
         }
-       setShowAddModal(false)
+        setShowAddModal(false)
     }
 
     const handleCloseClick = () => {
@@ -67,7 +68,7 @@ const TaskBoard = () => {
     return (
         <section className="mb-20" id="tasks">
             {
-                showAddModal && <AddTaskModal onSave={handleAddEditTask} onCloseClick={handleCloseClick}  taskToUpdate={taskToUpdate}></AddTaskModal>
+                showAddModal && <AddTaskModal onSave={handleAddEditTask} onCloseClick={handleCloseClick} taskToUpdate={taskToUpdate}></AddTaskModal>
             }
             <div className="container">
                 <div className="p-2 flex justify-end">
@@ -75,8 +76,10 @@ const TaskBoard = () => {
                 </div>
 
                 <div className="rounded-xl border border-[rgba(206,206,206,0.12)] bg-[#1D212B] px-6 py-8 md:px-9 md:py-16">
-                    <TaskActions onAddClick={() => {setShowAddModal(true)}} onDeleteAllClick={handleDeleteAllClick}></TaskActions>
-                    <TaskList tasks={tasks} onEdit={handleEditTask} onDelete={handleDeleteTask} onFav={handleFavorite}></TaskList>
+                    <TaskActions onAddClick={() => { setShowAddModal(true) }} onDeleteAllClick={handleDeleteAllClick}></TaskActions>
+                    {
+                        tasks.length > 0 ? <TaskList tasks={tasks} onEdit={handleEditTask} onDelete={handleDeleteTask} onFav={handleFavorite}></TaskList> : (<NoTaskFound></NoTaskFound>)
+                    }
                 </div>
             </div>
         </section>
