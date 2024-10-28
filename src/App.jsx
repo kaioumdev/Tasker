@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import HeroSection from './HeroSection'
@@ -9,8 +8,8 @@ const App = () => {
     <div>
       <Header></Header>
       <div className='flex flex-col justify-center items-center'>
-      <HeroSection></HeroSection>
-      <TaskBoard></TaskBoard>
+        <HeroSection></HeroSection>
+        <TaskBoard></TaskBoard>
       </div>
       <Footer></Footer>
     </div>
