@@ -2,8 +2,6 @@ import { useState } from 'react'
 import SearchTask from './SearchTask'
 import TaskActions from './TaskActions'
 import TaskList from './TaskList'
-import AddTaskModal from './AddTaskModal'
-import NoTaskFound from './NoTaskFound'
 
 const TaskBoard = () => {
     const defaultTask = {
