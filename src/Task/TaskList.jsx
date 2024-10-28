@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaStar } from "react-icons/fa";
 
 const TaskList = ({ tasks, onEdit, onDelete, onFav }) => {
@@ -36,7 +35,7 @@ const TaskList = ({ tasks, onEdit, onDelete, onFav }) => {
                             key={task.id}
                             className="border-b border-[#2E3443] [&>td]:align-baseline [&>td]:px-4 [&>td]:py-2">
                             <td>
-                                <dutton className="cursor-pointer" onClick={() =>onFav(task.id)}>
+                                <dutton className="cursor-pointer" onClick={() => onFav(task.id)}>
                                     {
                                         task.isFavorite ? <FaStar color="yellow" /> : <FaStar color='gray' />
                                     }
