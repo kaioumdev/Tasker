@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { FaStar } from "react-icons/fa";
 
 const TaskList = ({ tasks, onEdit, onDelete, onFav }) => {
