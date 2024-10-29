@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+/* eslint-disable react/prop-types */
+import { useState } from 'react'
 
-const SearchTask = ({onSearch}) => {
+const SearchTask = ({ onSearch }) => {
     const [searchTerm, setSearchTerm] = useState("")
 
     const handleClick = (e) => {
