@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+/* eslint-disable react/prop-types */
+import { useState } from 'react'
 
-const AddTaskModal = ({onSave, taskToUpdate, onCloseClick}) => {
+const AddTaskModal = ({ onSave, taskToUpdate, onCloseClick }) => {
     const [task, setTask] = useState(taskToUpdate || {
-        id:crypto.randomUUID(),
+        id: crypto.randomUUID(),
         title: "",
         description: "",
         tags: [],
@@ -10,12 +11,10 @@ const AddTaskModal = ({onSave, taskToUpdate, onCloseClick}) => {
         isFavorite: false
     })
 
-    const [isAdd, setIsAdd] = useState(Object.is(taskToUpdate, null))
-
     const handleChange = (e) => {
         const name = e.target.name;
         let value = e.target.value;
-        if(name === "tags"){
+        if (name === "tags") {
             value = value.split(",")
         }
 
@@ -29,7 +28,7 @@ const AddTaskModal = ({onSave, taskToUpdate, onCloseClick}) => {
             <div className='bg-black bg-opacity-70 h-full w-full z-10 absolute top-0 left-0'></div>
             <form className="mx-auto my-10 w-full max-w-[740px] rounded-xl border border-[#FEFBFB]/[36%] bg-[#191D26] p-9 max-md:px-4 lg:my-20 lg:p-11 z-10 absolute top-1/4 left-1/3">
                 <h2 className="mb-9 text-center text-2xl font-bold text-white lg:mb-11 lg:text-[28px]">
-                    {isAdd ? "Add New Task" : "Edit Task"}
+                    {/* {isAdd ? "Add New Task" : "Edit Task"} */}
                 </h2>
 
                 <div className="space-y-9 text-white lg:space-y-10">
@@ -102,7 +101,6 @@ const AddTaskModal = ({onSave, taskToUpdate, onCloseClick}) => {
                     <button
                         type="submit"
                         className="rounded bg-blue-600 px-4 py-2 text-white transition-all hover:opacity-80"
-                        onClick={() => onSave(task, isAdd)}
                     >
                         Save
                     </button>
