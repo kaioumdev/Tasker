@@ -51,7 +51,7 @@ const TaskBoard = () => {
 
     const handleDeleteAllClick = () => {
         tasks.length = 0;
-        setTasks(...tasks);
+        setTasks([...tasks]);
     }
     return (
         <section className="mb-20" id="tasks">
