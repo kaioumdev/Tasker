@@ -65,7 +65,7 @@ const TaskBoard = () => {
 
     const handleSearch = (searchTerm) => {
         const filteredTasks = tasks.filter((task) => task.title.toLowerCase().includes(searchTerm.toLowerCase()));
-        setTasks(filteredTasks);
+        setTasks([...filteredTasks]);
     }
     return (
         <section className="mb-20" id="tasks">
