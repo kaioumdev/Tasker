@@ -3,7 +3,7 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react'
 
-const AddTaskModal = ({ onSave, toUpdateTask }) => {
+const AddTaskModal = ({ onSave, toUpdateTask, onCloseClick }) => {
     const [task, setTask] = useState(toUpdateTask || {
         id: crypto.randomUUID(),
         title: "",
@@ -95,6 +95,7 @@ const AddTaskModal = ({ onSave, toUpdateTask }) => {
 
                 <div className="mt-16 flex justify-between lg:mt-20">
                     <button
+                        onClick={onCloseClick}
                         className="rounded bg-red-600 px-4 py-2 text-white transition-all hover:opacity-80"
                     >
                         Close
