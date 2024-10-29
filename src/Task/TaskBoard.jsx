@@ -18,9 +18,19 @@ const TaskBoard = () => {
     const [showAddModal, setShowAddModal] = useState(false);
     const [toUpdateTask, setToUpdateTask] = useState(null);
 
-    const handleAddTask = (newTask) => {
-        console.log('adding new task...', newTask);
-        setTasks([...tasks, newTask]);
+    const handleAddTask = (newTask, isAdd) => {
+        if (isAdd) {
+            console.log('adding new task...', newTask);
+            setTasks([...tasks, newTask]);
+        } else {
+            const updatedTask = tasks.map((task) => {
+                if (task.id === newTask.id) {
+                    return newTask;
+                }
+                return task;
+            })
+            setTasks(updatedTask);
+        }
         setShowAddModal(false);
     }
 
