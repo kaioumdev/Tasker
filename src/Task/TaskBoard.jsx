@@ -17,11 +17,33 @@ const TaskBoard = () => {
     }
     const [tasks, setTasks] = useState([defaultTask]);
     const [showAddModal, setShowAddModal] = useState(false);
+    const [toUpdateTask, setToUpdateTask] = useState(null);
 
-    const handleAddEditTask = (newTask) => {
+    const handleAddEditTask = (newTask, isAdd) => {
+        if (isAdd) {
+            setTasks([...tasks, newTask])
+        } else {
+            const updatedTasks = tasks.map((task) => {
+                if (task.id === newTask.id) {
+                    return newTask
+                }
+                return task
+            });
+            setTasks(updatedTasks)
+        }
         console.log('adding task', newTask);
-        setTasks([...tasks, newTask])
         setShowAddModal(false)
+    }
+
+    const handleEditTask = (task) => {
+        // const updatedTask = tasks.map((task) => {
+        //     if (task.id === newTask.id) {
+        //         return newTask
+        //     }
+        //     return task
+        // });
+        setShowAddModal(true)
+        setToUpdateTask(task)
     }
 
     return (
@@ -30,10 +52,10 @@ const TaskBoard = () => {
                 <div className="p-2 flex justify-end">
                     <SearchTask></SearchTask>
                 </div>
-                {showAddModal && <AddTaskModal onSave={handleAddEditTask}></AddTaskModal>}
+                {showAddModal && <AddTaskModal onSave={handleAddEditTask} toUpdateTask={toUpdateTask}></AddTaskModal>}
                 <div className="rounded-xl border border-[rgba(206,206,206,0.12)] bg-[#1D212B] px-6 py-8 md:px-9 md:py-16">
                     <TaskActions onAddClick={() => { setShowAddModal(true) }}></TaskActions>
-                    <TaskList tasks={tasks} ></TaskList>
+                    <TaskList tasks={tasks} onEdit={handleEditTask}></TaskList>
                 </div>
             </div>
         </section>
