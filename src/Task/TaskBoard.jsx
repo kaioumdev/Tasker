@@ -17,69 +17,17 @@ const TaskBoard = () => {
     }
     const [tasks, setTasks] = useState([defaultTask]);
     const [showAddModal, setShowAddModal] = useState(false);
-    const [toUpdateTask, setToUpdateTask] = useState(null);
 
-    const handleAddEditTask = (newTask, isAdd) => {
-        if (isAdd) {
-            console.log('adding new task...', newTask);
-            setTasks([...tasks, newTask]);
-        } else {
-            const updatedTask = tasks.map((task) => {
-                if (task.id === newTask.id) {
-                    return newTask;
-                }
-                return task;
-            })
-            setTasks(updatedTask);
-        }
-        setShowAddModal(false);
-    }
-
-    const handleEditTask = (task) => {
-        setToUpdateTask(task);
-        setShowAddModal(true);
-    }
-
-    const handleCloseClick = () => {
-        setShowAddModal(false);
-        setToUpdateTask(null);
-    }
-
-    const handleDeleteTask = (taskId) => {
-        const deleteTask = tasks.filter((task) => task.id !== taskId);
-        setTasks(deleteTask);
-    }
-
-    const handleDeleteAllClick = () => {
-        tasks.length = 0;
-        setTasks([...tasks]);
-    }
-
-    const handleFavorite = (taskId) => {
-        const taskIndex = tasks.findIndex((task) => task.id === taskId);
-
-        const newTasks = [...tasks];
-
-        newTasks[taskIndex].isFavorite = !newTasks[taskIndex].isFavorite;
-        setTasks(newTasks);
-    }
-
-    const handleSearch = (searchTerm) => {
-        const filteredTasks = tasks.filter((task) => task.title.toLowerCase().includes(searchTerm.toLowerCase()));
-        setTasks([...filteredTasks]);
-    }
     return (
         <section className="mb-20" id="tasks">
             <div className="container">
                 <div className="p-2 flex justify-end">
-                    <SearchTask onSearch={handleSearch}></SearchTask>
+                    <SearchTask></SearchTask>
                 </div>
-                {showAddModal && <AddTaskModal onSave={handleAddEditTask} toUpdateTask={toUpdateTask} onCloseClick={handleCloseClick}></AddTaskModal>}
+                {showAddModal && <AddTaskModal></AddTaskModal>}
                 <div className="rounded-xl border border-[rgba(206,206,206,0.12)] bg-[#1D212B] px-6 py-8 md:px-9 md:py-16">
-                    <TaskActions onAddClick={() => setShowAddModal(true)} onDeleteAllClick={handleDeleteAllClick}></TaskActions>
-                    {
-                        tasks.length > 0 ? (<TaskList tasks={tasks} onEdit={handleEditTask} onDelete={handleDeleteTask} onFav={handleFavorite}></TaskList>) : (<NoTaskFound></NoTaskFound>)
-                    }
+                    <TaskActions onAddClick={() => { setShowAddModal(true) }}></TaskActions>
+                    <TaskList tasks={tasks}></TaskList>
                 </div>
             </div>
         </section>
