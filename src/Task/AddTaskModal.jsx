@@ -4,19 +4,26 @@
 import { useState } from 'react'
 
 const AddTaskModal = ({ onSave, toUpdateTask, onCloseClick }) => {
-    const [task, setTask] = useState(
-        {
-            'id': crypto.randomUUID(),
-            'title': "",
-            'description': "",
-            'tags': [],
-            "priority": "",
-            "isFavorite": false
-        }
-    );
+    const [task, setTask] = useState({
+        "id": crypto.randomUUID(),
+        "title": "",
+        "description": "",
+        "tags": [],
+        "priority": "",
+        "isFavorite": false
+    });
+
+    console.log(task);
 
     const handleChange = (e) => {
-
+        const name = e.target.name;
+        let value = e.target.value;
+        console.log(name, value);
+        if (name === 'tags') {
+            value = value.split(",");
+        }
+        setTask(
+            { ...task, [name]: value });
     }
 
     return (
@@ -95,7 +102,7 @@ const AddTaskModal = ({ onSave, toUpdateTask, onCloseClick }) => {
                         Close
                     </button>
                     <button
-                        onClick={() => onSave(task, isAdd)}
+                        onClick={() => onSave(task)}
                         type="submit"
                         className="rounded bg-blue-600 px-4 py-2 text-white transition-all hover:opacity-80"
                     >
