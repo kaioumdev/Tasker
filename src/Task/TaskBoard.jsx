@@ -20,14 +20,8 @@ const TaskBoard = () => {
 
     const handleAddEditTask = (newTask) => {
         console.log('adding task', newTask);
-        setTasks(tasks.map((task) => {
-            if (task.id === newTask.id) {
-                return { ...tasks, newTask };
-            } else {
-                return task;
-            }
-        }))
-        setShowAddModal(false);
+        setTasks([...tasks, newTask])
+        setShowAddModal(false)
     }
 
     return (
