@@ -35,12 +35,6 @@ const TaskBoard = () => {
     }
 
     const handleEditTask = (task) => {
-        // const updatedTask = tasks.map((task) => {
-        //     if (task.id === newTask.id) {
-        //         return newTask
-        //     }
-        //     return task
-        // });
         setToUpdateTask(task)
         setShowAddModal(true)
     }
