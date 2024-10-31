@@ -30,9 +30,8 @@ const AddTaskModal = ({ onSave, toUpdateTask, onCloseClick }) => {
             <div className='bg-black bg-opacity-70 h-full w-full z-10 absolute top-0 left-0'></div>
             <form className="mx-auto my-10 w-full max-w-[740px] rounded-xl border border-[#FEFBFB]/[36%] bg-[#191D26] p-9 max-md:px-4 lg:my-20 lg:p-11 z-10 absolute top-1/4 left-1/3">
                 <h2 className="mb-9 text-center text-2xl font-bold text-white lg:mb-11 lg:text-[28px]">
-
+                    {isAdd ? "Create New Task" : "Edit Task"}
                 </h2>
-                {isAdd ? "Create New Task" : "Edit Task"}
                 <div className="space-y-9 text-white lg:space-y-10">
                     <div className="space-y-2 lg:space-y-3">
                         <label htmlFor="title">Title</label>
