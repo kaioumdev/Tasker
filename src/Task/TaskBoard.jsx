@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import SearchTask from './SearchTask';
 import TaskActions from './TaskActions';
 import TaskList from './TaskList';
