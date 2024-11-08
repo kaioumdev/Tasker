@@ -49,7 +49,7 @@ Currently, two official plugins are available:
 
 </div> -->
 
-<!-- <div align="center">
+<div align="center">
 
   <a href="https://github.com/your-repo/releases" target="_blank">
     <img alt="Version" src="https://img.shields.io/badge/Version-1.1.2-blue">
@@ -60,7 +60,7 @@ Currently, two official plugins are available:
   </a>
   &nbsp;&nbsp;
   <a href="https://www.python.org/downloads/release/python-380/" target="_blank">
-    <img alt="Python Version" src="https://img.shields.io/badge/Python-3.8-blue">
+    <img alt="Python Version" src="https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-ff371a">
   </a>
 
   <br><br>
@@ -77,7 +77,7 @@ Currently, two official plugins are available:
     <img alt="Demos & Examples" src="https://img.shields.io/badge/-👀%20Demos%20&%20Examples-orange">
   </a>
 
-</div> -->
+</div>
 
 <!-- <div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
   <img src="https://docs.taipy.io/en/latest/_static/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
@@ -143,7 +143,7 @@ Currently, two official plugins are available:
     </a>
   </div>
 </div> -->
-
+<!-- 
 <div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
   <img src="https://docs.taipy.io/en/latest/_static/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
   
@@ -170,7 +170,7 @@ Currently, two official plugins are available:
       <img alt="Discord Support" src="https://img.shields.io/badge/Discord-65%20online-ff371a?style=for-the-badge&labelColor=black&logo=discord&logoColor=white">
     </a>
   </div>
-</div>
+</div> -->
 
 
 
