@@ -191,10 +191,10 @@ Currently, two official plugins are available:
   
   <div style="margin-top: 20px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
     <a href="https://docs.taipy.io/en/latest/" target="_blank">
-      <img alt="Explore the Docs" src="https://img.shields.io/badge/📚-Explore the Docs-ff371a?style=for-the-badge&labelColor=black">
+      <img alt="Explore the Docs" src="https://img.shields.io/badge/Explore the-Docs📚-ff371a?style=for-the-badge&labelColor=black">
     </a>
     <a href="https://docs.taipy.io/en/latest/gallery/" target="_blank">
-      <img alt="Demos & Examples" src="https://img.shields.io/badge/👀-Demos & Examples-ff371a?style=for-the-badge&labelColor=black">
+      <img alt="Demos & Examples" src="https://img.shields.io/badge/Demos &-Examples👀-ff371a?style=for-the-badge&labelColor=black">
     </a>
     <a href="https://discord.com/invite/SJyz2VJGxV" target="_blank">
       <img alt="Discord Support" src="https://img.shields.io/badge/Discord-Support-ff371a?style=for-the-badge&labelColor=black&logo=discord&logoColor=white">
