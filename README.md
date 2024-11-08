@@ -197,7 +197,7 @@ Currently, two official plugins are available:
       <img alt="Demos & Examples" src="https://img.shields.io/badge/👀-Demos & Examples-ff371a?style=for-the-badge&labelColor=black">
     </a>
     <a href="https://discord.com/invite/SJyz2VJGxV" target="_blank">
-      <img alt="Discord Support" src="https://img.shields.io/badge/Discord-65%20online-ff371a?style=for-the-badge&labelColor=black&logo=discord&logoColor=white">
+      <img alt="Discord Support" src="https://img.shields.io/badge/Discord-Support-ff371a?style=for-the-badge&labelColor=black&logo=discord&logoColor=white">
     </a>
   </div>
 </div>
