@@ -49,7 +49,7 @@ Currently, two official plugins are available:
 
 </div> -->
 
-<div align="center">
+<!-- <div align="center">
 
   <a href="https://github.com/your-repo/releases" target="_blank">
     <img alt="Version" src="https://img.shields.io/badge/Version-1.1.2-blue">
@@ -77,9 +77,9 @@ Currently, two official plugins are available:
     <img alt="Demos & Examples" src="https://img.shields.io/badge/-👀%20Demos%20&%20Examples-orange">
   </a>
 
-</div>
+</div> -->
 
-<!-- <div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
+<div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
   <img src="https://docs.taipy.io/en/latest/_static/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
   
   <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
@@ -114,7 +114,7 @@ Currently, two official plugins are available:
       <img alt="Discord Support" src="https://img.shields.io/badge/Discord-65%20online-ff371a?logo=discord&logoColor=white" style="background: #0b0b0e;">
     </a>
   </div>
-</div> -->
+</div>
 
 <!-- <div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
   <img src="https://docs.taipy.io/en/latest/_static/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
