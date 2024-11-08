@@ -176,9 +176,7 @@ Currently, two official plugins are available:
 </div> -->
 
 
-<div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
-  <img src="https://docs.taipy.io/en/latest/_static/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
-  
+<div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">  
   <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
     <a href="https://www.python.org/downloads/" target="_blank">
       <img alt="Python Versions" src="https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-ff371a?style=for-the-badge&labelColor=black&color=ff371a">
@@ -193,10 +191,10 @@ Currently, two official plugins are available:
   
   <div style="margin-top: 20px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
     <a href="https://docs.taipy.io/en/latest/" target="_blank">
-      <img alt="Explore the Docs" src="https://img.shields.io/badge/-📚Explore_docs-ff371a?style=for-the-badge&labelColor=black">
+      <img alt="Explore the Docs" src="https://img.shields.io/badge/-📚-ff371a?style=for-the-badge&labelColor=black">
     </a>
     <a href="https://docs.taipy.io/en/latest/gallery/" target="_blank">
-      <img alt="Demos & Examples" src="https://img.shields.io/badge/-👀Explore_gallery-ff371a?style=for-the-badge&labelColor=black">
+      <img alt="Demos & Examples" src="https://img.shields.io/badge/-👀-ff371a?style=for-the-badge&labelColor=black">
     </a>
     <a href="https://discord.com/invite/SJyz2VJGxV" target="_blank">
       <img alt="Discord Support" src="https://img.shields.io/badge/Discord-65%20online-ff371a?style=for-the-badge&labelColor=black&logo=discord&logoColor=white">
