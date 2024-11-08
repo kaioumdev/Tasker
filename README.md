@@ -79,8 +79,7 @@ Currently, two official plugins are available:
 
 </div> -->
 
-<div align="center" style="background-color: #0b0b0e; padding: 20px; border-radius: 8px;">
-  <!-- Badge Links -->
+<!-- <div align="center" style="background-color: #0b0b0e; padding: 20px; border-radius: 8px;">
   <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
     <a href="https://github.com/your-repo/releases" target="_blank">
       <img alt="Version" src="https://img.shields.io/badge/Version-1.1.2-ff371a?style=for-the-badge&labelColor=0b0b0e">
@@ -93,10 +92,8 @@ Currently, two official plugins are available:
     </a>
   </div>
 
-  <!-- Spacer -->
   <div style="margin: 20px 0;"></div>
 
-  <!-- Secondary Links -->
   <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
     <a href="https://docs.taipy.io/en/latest/" target="_blank">
       <img alt="Explore the Docs" src="https://img.shields.io/badge/📚%20Explore%20the%20Docs-ff371a?style=for-the-badge&labelColor=0b0b0e">
@@ -109,7 +106,7 @@ Currently, two official plugins are available:
     </a>
   </div>
 
-</div>
+</div> -->
 
 
 
@@ -195,10 +192,10 @@ Currently, two official plugins are available:
   
   <div style="margin-top: 20px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
     <a href="https://docs.taipy.io/en/latest/" target="_blank">
-      <img alt="Explore the Docs" src="https://img.shields.io/badge/Explore_docs-ff371a?style=for-the-badge&labelColor=black">
+      <img alt="Explore the Docs" src="https://img.shields.io/badge/-📚Explore_docs-ff371a?style=for-the-badge&labelColor=black">
     </a>
     <a href="https://docs.taipy.io/en/latest/gallery/" target="_blank">
-      <img alt="Explore Gallery" src="https://img.shields.io/badge/Explore_gallery-ff371a?style=for-the-badge&labelColor=black">
+      <img alt="Demos & Examples" src="https://img.shields.io/badge/-👀Explore_gallery-ff371a?style=for-the-badge&labelColor=black">
     </a>
     <a href="https://discord.com/invite/SJyz2VJGxV" target="_blank">
       <img alt="Discord Support" src="https://img.shields.io/badge/Discord-65%20online-ff371a?style=for-the-badge&labelColor=black&logo=discord&logoColor=white">
