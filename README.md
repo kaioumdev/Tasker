@@ -63,7 +63,7 @@ Currently, two official plugins are available:
     <img alt="Python Version" src="https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-ff371a">
   </a>
 
-  <br>
+  <br><br>
 
   <a href="https://docs.taipy.io/en/latest/" target="_blank">
     <img alt="Explore the Docs" src="https://img.shields.io/badge/-📚%20Explore%20the%20Docs-blue">
