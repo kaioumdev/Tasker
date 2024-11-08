@@ -258,7 +258,7 @@ Currently, two official plugins are available:
       <img alt="Discord Support" src="https://img.shields.io/badge/Discord Support-ff371a?style=for-the-badge&labelColor=0b0b0e&logo=discord&logoColor=white&logoPosition=right">
     </a> -->
     <a href="https://discord.com/invite/SJyz2VJGxV" target="_blank">
-  <img alt="Discord Support" src="https://img.shields.io/badge/-Discord%20Support-ff371a?style=for-the-badge&labelColor=0b0b0e&logo=discord&logoColor=white">
+  <img alt="Discord Support" src="https://img.shields.io/badge/Discord%20Support-ff371a?style=for-the-badge&labelColor=0b0b0e&logo=discord&logoColor=white">
 </a>
 
   </div>
