@@ -249,7 +249,7 @@ Currently, two official plugins are available:
   <!-- Badge Links Row 2 -->
   <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
     <a href="https://docs.taipy.io/en/latest/" target="_blank">
-      <img alt="Explore the Docs" src="https://img.shields.io/📚-badge/Explore the Docs-ff371a?style=for-the-badge&labelColor=0b0b0e&color=ff371a">
+      <img alt="Explore the Docs" src="https://img.shields.io/badge/📚-Explore the Docs-ff371a?style=for-the-badge&labelColor=0b0b0e&color=ff371a">
     </a>
     <a href="https://docs.taipy.io/en/latest/gallery/" target="_blank">
       <img alt="Demos & Examples" src="https://img.shields.io/badge/👀-Demos & Examples-ff371a?style=for-the-badge&labelColor=0b0b0e&color=ff371a">
