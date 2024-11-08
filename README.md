@@ -10,7 +10,7 @@ Currently, two official plugins are available:
 [![Hacktoberfest_clickable](https://github.com/user-attachments/assets/b1b5a430-6df9-40c2-999f-de3433f61251)](https://assorted-son-815.notion.site/Hacktoberfest-2024-with-Taipy-2a5032a3f01642709e88ffaa5d0d169e)
 
 
-<!-- <div align="center"> -->
+<div align="center">
   <a href="https://taipy.io?utm_source=github" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Avaiga/taipy/assets/100117126/509bf101-54c2-4321-adaf-a2af63af9682">
@@ -63,7 +63,7 @@ Currently, two official plugins are available:
     <img alt="Python Version" src="https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-ff371a">
   </a>
 
-  <br><br>
+  <br>
 
   <a href="https://docs.taipy.io/en/latest/" target="_blank">
     <img alt="Explore the Docs" src="https://img.shields.io/badge/-📚%20Explore%20the%20Docs-blue">
