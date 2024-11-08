@@ -174,7 +174,8 @@ Currently, two official plugins are available:
     </a>
   </div>
 </div> -->
-<!-- 
+
+
 <div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
   <img src="https://docs.taipy.io/en/latest/_static/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
   
@@ -201,7 +202,7 @@ Currently, two official plugins are available:
       <img alt="Discord Support" src="https://img.shields.io/badge/Discord-65%20online-ff371a?style=for-the-badge&labelColor=black&logo=discord&logoColor=white">
     </a>
   </div>
-</div> -->
+</div>
 
 
 
