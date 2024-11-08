@@ -80,10 +80,6 @@ Currently, two official plugins are available:
 </div> -->
 
 <div align="center" style="background-color: #0b0b0e; padding: 20px; border-radius: 8px;">
-  
-  <!-- Logo (if desired, add Taipy logo here) -->
-  <img src="/path-to-your-logo/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
-
   <!-- Badge Links -->
   <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
     <a href="https://github.com/your-repo/releases" target="_blank">
