@@ -19,36 +19,6 @@ Currently, two official plugins are available:
   </a>
 </div>
 
-<div align="center">
-
-  <a href="https://github.com/your-repo/releases" target="_blank">
-    <img alt="Version" src="https://img.shields.io/badge/Version-1.1.2-blue">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
-    <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.python.org/downloads/release/python-380/" target="_blank">
-    <img alt="Python Version" src="https://img.shields.io/badge/Python-3.8-blue">
-  </a>
-
-  <br><br>
-
-  <a href="https://docs.taipy.io/en/latest/" target="_blank">
-    <img alt="Explore the Docs" src="https://img.shields.io/badge/-📚%20Explore%20the%20Docs-blue">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://discord.com/invite/SJyz2VJGxV" target="_blank">
-    <img alt="Discord Support" src="https://img.shields.io/badge/-Discord%20Support-5865F2?logo=discord&logoColor=white">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://docs.taipy.io/en/latest/gallery/" target="_blank">
-    <img alt="Demos & Examples" src="https://img.shields.io/badge/-👀%20Demos%20&%20Examples-orange">
-  </a>
-
-</div>
-
 <!-- <div align="center">
 
   <a href="https://github.com/your-repo/releases" target="_blank">
@@ -78,6 +48,36 @@ Currently, two official plugins are available:
   </a>
 
 </div> -->
+
+<div align="center">
+
+  <a href="https://github.com/your-repo/releases" target="_blank">
+    <img alt="Version" src="https://img.shields.io/badge/Version-1.1.2-blue">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
+    <img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.python.org/downloads/release/python-380/" target="_blank">
+    <img alt="Python Version" src="https://img.shields.io/badge/Python-3.8-blue">
+  </a>
+
+  <br><br>
+
+  <a href="https://docs.taipy.io/en/latest/" target="_blank">
+    <img alt="Explore the Docs" src="https://img.shields.io/badge/-📚%20Explore%20the%20Docs-blue">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://discord.com/invite/SJyz2VJGxV" target="_blank">
+    <img alt="Discord Support" src="https://img.shields.io/badge/-Discord%20Support-5865F2?logo=discord&logoColor=white">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://docs.taipy.io/en/latest/gallery/" target="_blank">
+    <img alt="Demos & Examples" src="https://img.shields.io/badge/-👀%20Demos%20&%20Examples-orange">
+  </a>
+
+</div>
 
 <!-- <div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
   <img src="https://docs.taipy.io/en/latest/_static/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
