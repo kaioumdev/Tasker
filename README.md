@@ -79,7 +79,7 @@ Currently, two official plugins are available:
 
 </div> -->
 
-<div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
+<!-- <div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
   <img src="https://docs.taipy.io/en/latest/_static/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
   
   <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
@@ -100,6 +100,34 @@ Currently, two official plugins are available:
     </a>
     <a href="https://www.python.org/downloads/release/python-3120/" target="_blank">
       <img alt="Python Version" src="https://img.shields.io/badge/python-3.12-ff371a" style="background: #0b0b0e; color: #ff371a;">
+    </a>
+  </div>
+  
+  <div style="margin-top: 20px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+    <a href="https://docs.taipy.io/en/latest/" target="_blank">
+      <img alt="Explore the Docs" src="https://img.shields.io/badge/Explore_docs-ff371a?style=flat-square" style="background: #0b0b0e;">
+    </a>
+    <a href="https://docs.taipy.io/en/latest/gallery/" target="_blank">
+      <img alt="Explore Gallery" src="https://img.shields.io/badge/Explore_gallery-ff371a?style=flat-square" style="background: #0b0b0e;">
+    </a>
+    <a href="https://discord.com/invite/SJyz2VJGxV" target="_blank">
+      <img alt="Discord Support" src="https://img.shields.io/badge/Discord-65%20online-ff371a?logo=discord&logoColor=white" style="background: #0b0b0e;">
+    </a>
+  </div>
+</div> -->
+
+<div align="center" style="background-color:#0b0b0e; padding: 20px; border-radius: 8px;">
+  <img src="https://docs.taipy.io/en/latest/_static/taipy_logo.png" alt="Taipy Logo" width="150" style="margin-bottom: 20px;">
+  
+  <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+    <a href="https://www.python.org/downloads/" target="_blank">
+      <img alt="Python Versions" src="https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-ff371a" style="background: #0b0b0e; color: #ff371a;">
+    </a>
+    <a href="https://github.com/your-repo/releases" target="_blank">
+      <img alt="Version" src="https://img.shields.io/badge/release-v4.0.0-ff371a" style="background: #0b0b0e; color: #ff371a;">
+    </a>
+    <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">
+      <img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-ff371a" style="background: #0b0b0e; color: #ff371a;">
     </a>
   </div>
   
