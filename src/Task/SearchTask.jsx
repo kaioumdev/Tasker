@@ -6,7 +6,11 @@ const SearchTask = ({ onSearch }) => {
 
     const handleClick = (e) => {
         e.preventDefault();
-        onSearch(searchTerm)
+        if (e.key === "Enter") {
+            onSearch(searchTerm)
+        } else {
+            onSearch(searchTerm)
+        }
     }
     return (
         <form>
